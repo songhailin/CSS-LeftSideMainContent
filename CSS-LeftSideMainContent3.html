@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+.side,
+.main {
+	height: 200px;
+	color: black;
+}
+
+.side{
+	background-color: pink;
+	width: 200px;
+}
+
+.main{
+	background-color: gray;
+}
+
+.wrapper3 {
+	display: flex;
+}
+
+.wrapper3 .main {
+	flex-grow: 1;
+	margin-left: 10px;
+}
+</style>
+</head>
+<body>
+<div class="wrapper3">
+	<div class="side">side</div>
+	<div class="main">content</div>
+</div> 
+</body>
+</html>
